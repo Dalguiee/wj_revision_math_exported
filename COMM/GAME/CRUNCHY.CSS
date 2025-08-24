@@ -1,7 +1,6 @@
 @font-face {
   font-family: "NanumSquareRound";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
-    format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -50,14 +49,14 @@ body {
   z-index: 10;
 }
 .popup_intro {
-  background-image: url("../../COMM/IMG/CRUNCHY/INTRO.PNG");
+  background-image: url("../../COMM/IMG/CRUNCHY/INTRO.png");
   width: 1376px;
   height: 886px;
   position: relative;
   transform: translateX(-36px) translateY(-66px);
 }
 .popup_intro-start {
-  background-image: url("../../COMM/IMG/CRUNCHY/GAMESTART_BTN.PNG");
+  background-image: url("../../COMM/IMG/CRUNCHY/GAMESTART_BTN.png");
   width: 353px;
   height: 140px;
   position: absolute;
@@ -86,8 +85,7 @@ body {
   width: 100%;
   height: 80%;
   z-index: 1;
-  background: center/contain no-repeat
-    url("../../COMM/IMG/CRUNCHY/LASTPOPUP.PNG");
+  background: center/contain no-repeat url("../../COMM/IMG/CRUNCHY/LASTPOPUP.PNG");
 }
 #complete_popup .buttonArea {
   display: flex;
@@ -206,8 +204,7 @@ body {
   top: -90px;
   width: 125px;
   height: 125px;
-  background: center/contain no-repeat
-    url("../../COMM/IMG/CRUNCHY/FIREHEAD.PNG");
+  background: center/contain no-repeat url("../../COMM/IMG/CRUNCHY/FIREHEAD.PNG");
 }
 .fire .fire_pad {
   width: 100%;
@@ -235,8 +232,7 @@ body {
   /* display: none; */
   width: 80px;
   height: 80px;
-  background: center/contain no-repeat
-    url("../../COMM/IMG/CRUNCHY/WATERBOMB.PNG");
+  background: center/contain no-repeat url("../../COMM/IMG/CRUNCHY/WATERBOMB.PNG");
 }
 
 /* 손 */
@@ -247,7 +243,7 @@ body {
   width: 100%;
   height: 100%;
   top: -1500px;
-  background: url("../../COMM/IMG/CRUNCHY/HAND.PNG") no-repeat top;
+  background: url("../../COMM/IMG/CRUNCHY/HAND.png") no-repeat top;
   background-size: 1930px;
 }
 /* 바이러스 */

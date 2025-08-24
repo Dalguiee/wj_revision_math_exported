@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-.ansBox{
+.ansBox {
   border: 5px solid black;
   border-radius: 11px;
   margin: 0 25px;
@@ -131,8 +131,7 @@
   width: 100%;
   height: 80%;
   z-index: 1;
-  background: center/contain no-repeat
-    url("../../COMM/IMG/CALCKING/LASTPOPUP.png");
+  background: center/contain no-repeat url("../../COMM/IMG/CALCKING/LASTPOPUP.png");
 }
 #complete_popup .reload {
   display: flex;

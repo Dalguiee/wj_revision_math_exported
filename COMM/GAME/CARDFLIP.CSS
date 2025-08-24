@@ -8,8 +8,7 @@ body,
 
 @font-face {
   font-family: "NanumSquareRound";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
-    format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -100,7 +99,7 @@ body,
   transform: translateX(-50%) translateY(-50%);
   width: 1434px;
   height: 778px;
-  background: url(../../COMM/IMG/CARDFLIP/INTRO.PNG) no-repeat center;
+  background: url(../../COMM/IMG/CARDFLIP/INTRO.png) no-repeat center;
 }
 
 .game_intro_btn {
@@ -395,8 +394,7 @@ body,
   width: 100%;
   height: 80%;
   z-index: 1;
-  background: center/contain no-repeat
-    url("../../COMM/IMG/CARDFLIP/LASTPOPUP.PNG");
+  background: center/contain no-repeat url("../../COMM/IMG/CARDFLIP/LASTPOPUP.PNG");
 }
 #complete_popup .reload {
   display: flex;
